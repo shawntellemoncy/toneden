@@ -1,0 +1,521 @@
+
+.td.player.light {
+  background: rgba(255,255,255,0.8);
+  color: black;
+  border-color: #E4E4E4;
+}
+
+.td.player.dark {
+  background: rgba(0,0,0,0.85);
+  color: white;
+  border-color: #333;
+}
+
+.td.player.aurora {
+    color: white;
+    background: #192F41;
+    border-color: #1B4B4B;
+}
+
+.td.player.mojave {
+    color: white;
+    background: #4F4E70;
+    border-color: #6D6C9A;
+}
+
+.td.player.light div, .td.player.light ul {
+  border-color: #E4E4E4!important;
+}
+
+.td.player.dark div, .td.player.dark ul {
+  border-color: #333 !important;
+}
+
+.td.player.aurora div, .td.player.aurora ul {
+    border-color: #1B4B4B !important;
+}
+
+.td.player.mojave div, .td.player.mojave ul {
+    border-color: #6D6C9A !important;
+}
+
+.td.player.light .waveform path {
+    fill: none;
+    stroke: #000;
+}
+
+.td.player.dark .waveform path {
+    fill: none;
+    stroke: white;
+}
+
+.td.player.aurora .waveform path {
+    fill: none;
+    stroke: #02DDA8;
+}
+
+.td.player.mojave .waveform path {
+    fill: none;
+    stroke: #F58F86;
+}
+
+.td.player.light .info {
+  border-color: #E4E4E4;
+  color: black;
+}
+
+.td.player.dark .info {
+  border-color: #333;
+  color: white;
+}
+
+.td.player.aurora .info {
+  border-color: #1B4B4B;
+  color: white;
+}
+
+.td.player.mojave .info {
+  border-color: #6D6C9A;
+  color: white;
+}
+
+.td.player.light .info a, .td.player.light .mini-song-info a{
+  color: black;
+}
+
+.td.player.dark .info a, .td.player.dark .mini-song-info a{
+  color: white;
+}
+
+.td.player.aurora .info a, .td.player.aurora .mini-song-info a{
+  color: white;
+}
+
+.td.player.mojave .info a, .td.player.mojave .mini-song-info a{
+  color: white;
+}
+
+.td.player.light .icon-td_logo {
+  color: #222;
+}
+
+.td.player.dark .icon-td_logo {
+  color:white;
+}
+
+.td.player.aurora .icon-td_logo {
+  color:white;
+}
+
+.td.player.mojave .icon-td_logo {
+  color:white;
+}
+
+.td.player.light .soundcloud-icon {
+}
+
+.td.player.dark .soundcloud-icon {
+  color:white;
+}
+
+.td.player.aurora .soundcloud-icon {
+  color:white;
+}
+
+.td.player.mojave .soundcloud-icon {
+  color:white;
+}
+
+.td.player.light .follow-link {
+  border-color: #E4E4E4!important;
+  color: #222;
+}
+
+.td.player.dark .follow-link {
+  border-color: #333 !important;
+  color: white;
+}
+
+.td.player.aurora .follow-link {
+  border-color: #1B4B4B !important;
+  color: white;
+}
+
+.td.player.mojave .follow-link {
+  border-color: #6D6C9A !important;
+  color: white;
+}
+
+.td.player.light .buy-link {
+  border-color: #E4E4E4!important;
+  color: #222;
+}
+
+.td.player.dark .buy-link {
+  border-color: #333 !important;
+  color: white;
+}
+
+.td.player.aurora .buy-link {
+  border-color: #1B4B4B !important;
+  color: white;
+}
+
+.td.player.mojave .buy-link {
+  border-color: #6D6C9A !important;
+  color: white;
+}
+
+.td.player.light .follow-link:hover,.td.player.light .buy-link:hover {
+  background: rgba(255,255,255,0.8);
+  color: #000;
+}
+
+.td.player.dark .follow-link:hover,.td.player.dark .buy-link:hover {
+  background: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.td.player.aurora .follow-link:hover,.td.player.aurora .buy-link:hover {
+  background: #122230;
+  color: white;
+}
+
+.td.player.mojave .follow-link:hover,.td.player.mojave .buy-link:hover {
+  background: #44435F;
+  color: white;
+}
+
+.td.player.light .controls {
+  color: #000;
+  border-color: #E4E4E4;
+}
+
+.td.player.dark .controls {
+  color: white;
+  border-color: #333;
+}
+
+.td.player.aurora .controls {
+  color: #02DDA8;
+  border-color: #1B4B4B;
+}
+
+.td.player.mojave .controls {
+  color: #F58F86;
+  border-color: #6D6C9A;
+}
+
+.td.player.light .scrubber {
+  border-color: #E4E4E4;
+}
+
+.td.player.dark .scrubber {
+  border-color: #333;
+}
+
+.td.player.aurora .scrubber {
+  border-color: #1B4B4B;
+}
+
+.td.player.mojave .scrubber {
+  border-color: #6D6C9A;
+}
+
+.td.player.light .scrub-bar {
+  border-color: #E4E4E4;
+}
+
+.td.player.dark .scrub-bar {
+  border-color: #333;
+}
+
+.td.player.aurora .scrub-bar {
+  border-color: #1B4B4B;
+}
+
+.td.player.mojave .scrub-bar {
+  border-color: #6D6C9A;
+}
+
+.td.player.light .title {
+  border-color: #D6D6D6;
+}
+
+.td.player.dark .title {
+  border-color: #333;
+}
+
+.td.player.aurora .title {
+  border-color: #1B4B4B;
+}
+
+.td.player.mojave .title {
+  border-color: #6D6C9A;
+}
+
+.td.player.light .playlist-table tbody tr.playing {
+  color: #000;
+}
+
+.td.player.dark .playlist-table tbody tr.playing {
+  color: white;
+}
+
+.td.player.aurora .playlist-table tbody tr.playing {
+  color: #02DDA8;
+}
+
+.td.player.mojave .playlist-table tbody tr.playing {
+  color: white;
+}
+
+.td.player.light .playlist-table tr {
+  color: #000;
+}
+
+.td.player.dark .playlist-table tr {
+  color: white;
+}
+
+.td.player.aurora .playlist-table tr {
+  color: #02DDA8;
+}
+
+.td.player.mojave .playlist-table tr {
+  color: white;
+}
+
+.td.player.light tbody tr:hover {
+  border-color: rgba(175, 175, 175, 0.5);
+}
+
+.td.player.dark tbody tr:hover {
+  border-color: rgba(175, 175, 175, 0.5);
+}
+
+.td.player.aurora tbody tr:hover {
+  border-color: rgba(175, 175, 175, 0.5);
+}
+
+.td.player.mojave tbody tr:hover {
+  border-color: rgba(175, 175, 175, 0.5);
+}
+
+.td.player.light .playlist-table tbody tr td {
+  border-color: #E4E4E4;
+}
+
+.td.player.dark .playlist-table tbody tr td {
+  border-color: #333;
+}
+
+.td.player.aurora .playlist-table tbody tr td {
+  border-color: #1B4B4B;
+}
+
+.td.player.mojave .playlist-table tbody tr td {
+  border-color: #6D6C9A;
+}
+
+.td.player.light .slider > .dragger {
+  background: #BFC1CC;
+}
+
+.td.player.dark .slider > .dragger {
+  background: #ACACAC;
+}
+
+.td.player.aurora .slider > .dragger {
+  background: #ACACAC;
+}
+
+.td.player.mojave .slider > .dragger {
+  background: #6D6C9A;
+}
+
+.td.player.light .slider > .dragger:hover {
+   background: #000;
+}
+
+.td.player.dark .slider > .dragger:hover {
+   background: white;
+}
+
+.td.player.aurora .slider > .dragger:hover {
+   background: white;
+}
+
+.td.player.mojave .slider > .dragger:hover {
+   background: white;
+}
+
+.td.player.light .slider > .track {
+  background: #f8f8f8;
+  border-color: #E4E4E4;
+}
+
+.td.player.dark .slider > .track {
+   background: #494949;
+  border-color: #333;
+}
+
+.td.player.aurora .slider > .track {
+   background: #254364;
+  border-color: #254364;
+}
+
+.td.player.mojave .slider > .track {
+   background: #254364;
+  border-color: #6D6C9A;
+}
+
+.td.player.light .slider > .highlight-track {
+  border-color: #333;
+  background: #000;
+}
+
+.td.player.dark .slider > .highlight-track  {
+  border-color: #333;
+  background: white;
+}
+
+.td.player.aurora .slider > .highlight-track  {
+  border-color: #02DDA8;
+  background: #02DDA8;
+}
+
+.td.player.mojave .slider > .highlight-track  {
+  border-color: #F58F86;
+  background: #F58F86;
+}
+
+.td.player.light .line {
+  stroke: #000;
+}
+
+.td.player.dark .line {
+  stroke: white;
+}
+
+.td.player.aurora .line {
+  stroke: white;
+}
+
+.td.player.mojave .line {
+  stroke: white;
+}
+
+.td.player.light .axis path, .td.player.light .axis line,{
+  stroke: #000;
+}
+
+.td.player.dark .axis path, .td.player.dark .axis line,{
+  stroke: white;
+}
+
+.td.player.aurora .axis path, .td.player.aurora .axis line,{
+  stroke: white;
+}
+
+.td.player.mojave .axis path, .td.player.mojave .axis line,{
+  stroke: white;
+}
+
+.td.player.light svg rect {
+  fill: #000;
+}
+
+.td.player.dark svg rect {
+  fill: white;
+}
+
+.td.player.aurora svg rect {
+  fill: #02DDA8;
+}
+
+.td.player.mojave svg rect {
+  fill: #F58F86;
+}
+
+.td.player.light .follow-small .follow-link {
+  border-color: #E4E4E4!important;
+}
+
+.td.player.dark .follow-small .follow-link {
+  border-color: #333 !important;
+}
+
+.td.player.aurora .follow-small .follow-link {
+  border-color: #1B4B4B !important;
+}
+
+.td.player.mojave .follow-small .follow-link {
+  border-color: #6D6C9A !important;
+}
+
+.td.player.light .buy-small .buy-link {
+  border-color: #E4E4E4!important;
+}
+
+.td.player.dark .buy-small .buy-link {
+  border-color: #333 !important;
+}
+
+.td.player.aurora .buy-small .buy-link {
+  border-color: #1B4B4B !important;
+}
+
+.td.player.mojave .buy-small .buy-link {
+  border-color: #6D6C9A !important;
+}
+
+/*spinner*/
+
+.td.player.light .tdspinner > div {
+  background: #333;
+}
+
+.td.player.dark .tdspinner > div {
+  background: white ;
+}
+
+.td.player.aurora .tdspinner > div {
+  background: white ;
+}
+
+.td.player.mojave .tdspinner > div {
+  background: white;
+}
+
+.td.player.light .tdloader {
+  color: #333;
+}
+
+.td.player.dark .tdloader {
+  color: white ;
+}
+
+.td.player.aurora .tdloader {
+  color: white ;
+}
+
+.td.player.mojave .tdloader {
+  color: white;
+}
+
+.td.player.light .tdempty{
+  color: #333;
+}
+
+.td.player.dark .tdempty{
+  color: white;
+}
+
+.td.player.aurora .tdempty{
+  color: white;
+}
+
+.td.player.mojave .tdempty{
+  color: white;
+}

@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'td-player';
+	src:url('//sd.toneden.io/resources/fonts/td-player.eot');
+	src:url('//sd.toneden.io/resources/fonts/td-player.eot') format('embedded-opentype'),
+		url('//sd.toneden.io/resources/fonts/td-player.woff') format('woff'),
+		url('//sd.toneden.io/resources/fonts/td-player.ttf') format('truetype'),
+		url('//sd.toneden.io/resources/fonts/td-player.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="tdicon-"], [class*="tdicon-"] {
+	font-family: 'td-player';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	display: inline-block;
+	text-rendering: auto;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.tdicon-share:before {
+	content: "\\e60a";
+}
+
+.tdicon-td_logo:before {
+	content: "\\e60b";
+}
+
+.tdicon-heart:before {
+	content: "\\f004";
+}
+
+.tdicon-angle-double-left:before {
+	content: "\\f100";
+}
+
+.tdicon-angle-double-right:before {
+	content: "\\f101";
+}
+
+.tdicon-circle-o-notch:before {
+	content: "\\f1ce";
+}
+
+.tdicon-pause-circle-fill:before {
+	content: "\\e600";
+}
+
+.tdicon-pause-circle-outline:before {
+	content: "\\e601";
+}
+
+.tdicon-play-circle-fill:before {
+	content: "\\e602";
+}
+
+.tdicon-play-circle-outline:before {
+	content: "\\e603";
+}
+
+.tdicon-skip-next:before {
+	content: "\\e604";
+}
+
+.tdicon-skip-previous:before {
+	content: "\\e605";
+}
+
+.tdicon-volume-down:before {
+	content: "\\e606";
+}
+
+.tdicon-volume-off:before {
+	content: "\\e607";
+}
+
+.tdicon-volume-up:before {
+	content: "\\e608";
+}
+
+.tdicon-repeat:before {
+	content: "\\e609";
+}
+
+.tdicon-soundcloud:before {
+	content: "\\e60c";
+}
+
+.tdicon-file-download:before {
+	content: "\\e60e";
+}
+
+.tdicon-warning:before {
+	content: "\\e60d";
+}

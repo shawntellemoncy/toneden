@@ -1,0 +1,144 @@
+body {
+  background: url(https://s3-us-west-1.amazonaws.com/toneden-static/production/images/template/bg/cover.jpg) no-repeat center center fixed !important;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: normal;
+}
+
+#demo {
+	min-height: 800px;
+}
+
+#player {
+	height: 560px;
+}
+
+#player-banner {
+  	font-family: 'Source Sans Pro', sans-serif;
+	background: white;
+	padding:60px 0px;
+}
+
+#header {
+  	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
+	margin: 30px 0px;
+}
+
+#header h1 {
+	font-size: 16px;
+	font-weight: 300;
+	font-style: italic;
+	text-shadow: 0 0 5px #E0E0E0;
+	color:black;
+	margin-top: 10px;
+}
+
+#header h2 {
+	font-size: 24px;
+	font-weight: 300;
+	text-shadow: 0 0 5px #E0E0E0;
+	color:black;
+}
+
+.skin-change-container {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.skin-change-btn {
+	padding: 0px 9px;
+	border-radius: 100%;
+	margin: 0px 20px;
+	opacity: 0.8;
+}
+
+.skin-change-btn:hover {
+	opacity: 1;
+}
+
+.skin-change-btn.active {
+	opacity: 1;
+	border: 2px solid #3498db;
+	box-sizing: border-box;
+}
+
+#light-btn {
+	background: rgba(255,255,255,0.8);
+}
+
+#dark-btn {
+	background: rgba(0,0,0,0.85);
+}
+
+#aurora-btn {
+	background: #02DDA8;
+}
+
+#mojave-btn {
+	background: #F58F86;
+}
+
+.tagline p {
+	font-size: 32px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.doc-sec {
+	margin: 50px 0px;
+}
+
+.doc-sec h3 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+pre {
+	background: #F8FAFC;
+	margin: 10px 0px !important;
+	padding: 10px !important;
+}
+
+code {
+	font-weight: normal !important;
+	color: #3AC095 !important;
+	font-size: 14px;
+	overflow: hidden;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+}
+
+#tdsplash {
+	background: rgba(15, 45, 56, 0.63);
+	text-align: center;
+	padding: 80px 0px;
+}
+
+#tdsplash h4, #tdsplash h6 {
+	color: white;
+	text-align: center;
+}
+
+#tdsplash h4, #tdsplash h4 code {
+	font-size:32px;
+}
+
+#tdsplash .showcase {
+	margin: 40px auto;
+}
+
+#tdsplash .showcase-button {
+  	font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
+}
